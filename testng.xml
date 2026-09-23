@@ -14,7 +14,7 @@
 
             <class name="api.testcase.UserTest"/>
             <class name="api.testcase.UserTest2"/>
-            <!--<class name="api.testcase.UserTestDD"/>-->
+            <class name="api.testcase.UserTestDD"/>
 
         </classes>
 
