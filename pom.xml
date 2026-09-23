@@ -8,14 +8,23 @@
     <plugins>
 
         <!-- Maven Compiler Plugin -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.15.0</version>
-            <configuration>
-                <release>17</release>
-            </configuration>
-        </plugin>
+       <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.15.0</version>
+
+    <configuration>
+        <release>17</release>
+
+        <annotationProcessorPaths>
+            <path>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.48</version>
+            </path>
+        </annotationProcessorPaths>
+    </configuration>
+</plugin>
 
         <!-- Maven Surefire Plugin -->
        
@@ -75,6 +84,20 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
     <scope>compile</scope>
+
+    <exclusions>
+        <exclusion>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.48</version>
+    <scope>provided</scope>
 </dependency>
 
 <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
