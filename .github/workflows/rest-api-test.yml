@@ -1,0 +1,96 @@
+name: REST API Automation Tests
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v5
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Run REST API Tests
+        continue-on-error: true
+        run: mvn clean test
+
+      - name: Find Latest Extent Report
+        id: report
+        if: always()
+        shell: bash
+        run: |
+          REPORT=$(find Reports -maxdepth 1 -type f -name 'PetStore-Reports-*.html' | sort | tail -n 1)
+
+          if [ -z "$REPORT" ]; then
+            echo "No Extent Report found."
+            exit 1
+          fi
+
+          echo "Latest report: $REPORT"
+          echo "report=$REPORT" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Extent Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Extent-Report
+          path: ${{ steps.report.outputs.report }}
+          if-no-files-found: warn
+
+      - name: Upload Test Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestNG-Results
+          path: target/surefire-reports/
+          if-no-files-found: warn
+
+      - name: Upload Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Logs
+          path: logs/
+          if-no-files-found: ignore
+
+      - name: Prepare GitHub Pages Report
+        if: always()
+        run: |
+          mkdir -p _site
+          cp "${{ steps.report.outputs.report }}" _site/index.html
+
+      - name: Upload Pages Artifact
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: success()
+    needs: test
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
