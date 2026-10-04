@@ -92,3 +92,79 @@
 [INFO] 2026-09-23 22:28:46.760 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user2
 [INFO] 2026-09-23 22:28:46.761 [main] RestAssuredAPIFramework - Starting Delete User test for username: user3
 [INFO] 2026-09-23 22:28:48.301 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user3
+[INFO] 2026-10-04 19:34:17.169 [main] RestAssuredAPIFramework - Test data generated successfully.
+[INFO] 2026-10-04 19:34:17.197 [main] RestAssuredAPIFramework - Starting Create User test
+[INFO] 2026-10-04 19:34:21.687 [main] RestAssuredAPIFramework - Create User executed successfully: 
+[INFO] 2026-10-04 19:34:21.695 [main] RestAssuredAPIFramework - Starting Get User test
+[INFO] 2026-10-04 19:34:23.764 [main] RestAssuredAPIFramework - Get User executed successfully: 
+[INFO] 2026-10-04 19:34:23.773 [main] RestAssuredAPIFramework - Starting Update User test
+[INFO] 2026-10-04 19:34:27.344 [main] RestAssuredAPIFramework - Update User executed successfully: 
+[INFO] 2026-10-04 19:34:27.349 [main] RestAssuredAPIFramework - Starting Delete User test
+[INFO] 2026-10-04 19:34:29.286 [main] RestAssuredAPIFramework - Delete User executed successfully: 
+[INFO] 2026-10-04 19:34:29.317 [main] RestAssuredAPIFramework - Test data generated successfully.
+[INFO] 2026-10-04 19:34:29.320 [main] RestAssuredAPIFramework - Starting Create User test
+[INFO] 2026-10-04 19:34:31.130 [main] RestAssuredAPIFramework - Create User executed successfully: 
+[INFO] 2026-10-04 19:34:31.137 [main] RestAssuredAPIFramework - Starting Get User test
+[INFO] 2026-10-04 19:34:33.386 [main] RestAssuredAPIFramework - Get User executed successfully: 
+[INFO] 2026-10-04 19:34:33.391 [main] RestAssuredAPIFramework - Starting Update User test
+[INFO] 2026-10-04 19:34:37.377 [main] RestAssuredAPIFramework - Update User executed successfully: 
+[INFO] 2026-10-04 19:34:37.385 [main] RestAssuredAPIFramework - Starting Delete User test
+[INFO] 2026-10-04 19:34:39.323 [main] RestAssuredAPIFramework - Delete User executed successfully: 
+[INFO] 2026-10-04 19:34:41.042 [main] RestAssuredAPIFramework - Starting Create User test for username: user1
+[INFO] 2026-10-04 19:34:43.623 [main] RestAssuredAPIFramework - Create User executed successfully for username: user1
+[INFO] 2026-10-04 19:34:43.625 [main] RestAssuredAPIFramework - Starting Create User test for username: user2
+[INFO] 2026-10-04 19:34:45.366 [main] RestAssuredAPIFramework - Create User executed successfully for username: user2
+[INFO] 2026-10-04 19:34:45.370 [main] RestAssuredAPIFramework - Starting Create User test for username: user3
+[INFO] 2026-10-04 19:34:46.892 [main] RestAssuredAPIFramework - Create User executed successfully for username: user3
+[INFO] 2026-10-04 19:34:47.003 [main] RestAssuredAPIFramework - Starting Get User test for username: user1
+[INFO] 2026-10-04 19:34:48.467 [main] RestAssuredAPIFramework - Get User executed successfully for username: user1
+[INFO] 2026-10-04 19:34:48.471 [main] RestAssuredAPIFramework - Starting Get User test for username: user2
+[INFO] 2026-10-04 19:34:49.834 [main] RestAssuredAPIFramework - Get User executed successfully for username: user2
+[INFO] 2026-10-04 19:34:49.835 [main] RestAssuredAPIFramework - Starting Get User test for username: user3
+[INFO] 2026-10-04 19:34:51.063 [main] RestAssuredAPIFramework - Get User executed successfully for username: user3
+[INFO] 2026-10-04 19:34:51.065 [main] RestAssuredAPIFramework - Starting Update User test
+[INFO] 2026-10-04 19:34:54.871 [main] RestAssuredAPIFramework - Update User executed successfully for username: user3
+[INFO] 2026-10-04 19:34:55.061 [main] RestAssuredAPIFramework - Starting Delete User test for username: user1
+[INFO] 2026-10-04 19:34:56.730 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user1
+[INFO] 2026-10-04 19:34:56.732 [main] RestAssuredAPIFramework - Starting Delete User test for username: user2
+[INFO] 2026-10-04 19:34:58.572 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user2
+[INFO] 2026-10-04 19:34:58.573 [main] RestAssuredAPIFramework - Starting Delete User test for username: user3
+[INFO] 2026-10-04 19:35:00.520 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user3
+[INFO] 2026-10-04 19:48:09.323 [main] RestAssuredAPIFramework - Test data generated successfully.
+[INFO] 2026-10-04 19:48:09.368 [main] RestAssuredAPIFramework - Starting Create User test
+[INFO] 2026-10-04 19:48:14.601 [main] RestAssuredAPIFramework - Create User executed successfully: 
+[INFO] 2026-10-04 19:48:14.608 [main] RestAssuredAPIFramework - Starting Get User test
+[INFO] 2026-10-04 19:48:16.797 [main] RestAssuredAPIFramework - Get User executed successfully: 
+[INFO] 2026-10-04 19:48:16.804 [main] RestAssuredAPIFramework - Starting Update User test
+[INFO] 2026-10-04 19:48:20.684 [main] RestAssuredAPIFramework - Update User executed successfully: 
+[INFO] 2026-10-04 19:48:20.689 [main] RestAssuredAPIFramework - Starting Delete User test
+[INFO] 2026-10-04 19:48:22.690 [main] RestAssuredAPIFramework - Delete User executed successfully: 
+[INFO] 2026-10-04 19:48:22.723 [main] RestAssuredAPIFramework - Test data generated successfully.
+[INFO] 2026-10-04 19:48:22.724 [main] RestAssuredAPIFramework - Starting Create User test
+[INFO] 2026-10-04 19:48:24.273 [main] RestAssuredAPIFramework - Create User executed successfully: 
+[INFO] 2026-10-04 19:48:24.277 [main] RestAssuredAPIFramework - Starting Get User test
+[INFO] 2026-10-04 19:48:25.692 [main] RestAssuredAPIFramework - Get User executed successfully: 
+[INFO] 2026-10-04 19:48:25.695 [main] RestAssuredAPIFramework - Starting Update User test
+[INFO] 2026-10-04 19:48:28.673 [main] RestAssuredAPIFramework - Update User executed successfully: 
+[INFO] 2026-10-04 19:48:28.675 [main] RestAssuredAPIFramework - Starting Delete User test
+[INFO] 2026-10-04 19:48:30.084 [main] RestAssuredAPIFramework - Delete User executed successfully: 
+[INFO] 2026-10-04 19:48:31.511 [main] RestAssuredAPIFramework - Starting Create User test for username: user1
+[INFO] 2026-10-04 19:48:33.177 [main] RestAssuredAPIFramework - Create User executed successfully for username: user1
+[INFO] 2026-10-04 19:48:33.179 [main] RestAssuredAPIFramework - Starting Create User test for username: user2
+[INFO] 2026-10-04 19:48:35.023 [main] RestAssuredAPIFramework - Create User executed successfully for username: user2
+[INFO] 2026-10-04 19:48:35.024 [main] RestAssuredAPIFramework - Starting Create User test for username: user3
+[INFO] 2026-10-04 19:48:36.866 [main] RestAssuredAPIFramework - Create User executed successfully for username: user3
+[INFO] 2026-10-04 19:48:37.022 [main] RestAssuredAPIFramework - Starting Get User test for username: user1
+[INFO] 2026-10-04 19:48:38.809 [main] RestAssuredAPIFramework - Get User executed successfully for username: user1
+[INFO] 2026-10-04 19:48:38.811 [main] RestAssuredAPIFramework - Starting Get User test for username: user2
+[INFO] 2026-10-04 19:48:40.653 [main] RestAssuredAPIFramework - Get User executed successfully for username: user2
+[INFO] 2026-10-04 19:48:40.656 [main] RestAssuredAPIFramework - Starting Get User test for username: user3
+[INFO] 2026-10-04 19:48:42.702 [main] RestAssuredAPIFramework - Get User executed successfully for username: user3
+[INFO] 2026-10-04 19:48:42.705 [main] RestAssuredAPIFramework - Starting Update User test
+[INFO] 2026-10-04 19:48:47.410 [main] RestAssuredAPIFramework - Update User executed successfully for username: user3
+[INFO] 2026-10-04 19:48:47.500 [main] RestAssuredAPIFramework - Starting Delete User test for username: user1
+[INFO] 2026-10-04 19:48:49.050 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user1
+[INFO] 2026-10-04 19:48:49.053 [main] RestAssuredAPIFramework - Starting Delete User test for username: user2
+[INFO] 2026-10-04 19:48:50.690 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user2
+[INFO] 2026-10-04 19:48:50.692 [main] RestAssuredAPIFramework - Starting Delete User test for username: user3
+[INFO] 2026-10-04 19:48:52.291 [main] RestAssuredAPIFramework - Delete User executed successfully for username: user3
